@@ -1,0 +1,27 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    /* position: relative; */
+
+}
+.mt-n1 {
+    margin-top: -3.00rem !important;
+}
+/* .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -25px 0 0 -25px;
+} */
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 0;
+    transform: translate(-50%, -50%); 
+}
+
