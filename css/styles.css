@@ -1,27 +1,86 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'K2D', sans-serif;
+    }
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
     background-color: #000;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
-    /* position: relative; */
-
 }
 .mt-n1 {
     margin-top: -3.00rem !important;
 }
-/* .intro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: -25px 0 0 -25px;
-} */
 h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     margin: 0 0 0 0;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    font-family: 'Asul', sans-serif; 
 }
-
+.bgimg-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/anna-vi-h7-zoPdyxSk-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+  }
+  .bgimg-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/harley-davidson-zGzXsJUBQfs-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+  }
+  .bgimg-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/rodrick-zhu-JgJKuoqlsJo-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+  }
+  .bgimg-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/nikhil-prasad-Tj5j_dtOMTU-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+  }
+  .caption {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 0;
+    transform: translate(-50%, -50%);
+    opacity: 0.50;
+    background-color: #000;  
+  }
+  footer {
+      background-color: #FF5050
+  }
+  .icon {
+      font-size: x-large;
+  }
+  .copyright {
+      font-size: x-small;
+  }
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+      background-attachment: scroll;
+    }
+  }
